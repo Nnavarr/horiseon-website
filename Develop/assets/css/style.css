@@ -1,3 +1,4 @@
+/* general and element selectors */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,27 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* header section*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,15 +65,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* Hero image section */
 .hero {
     height: 800px;
@@ -64,16 +77,6 @@ p {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 /* content container & content-block formatting */
@@ -161,6 +164,7 @@ p {
     max-width: 150px;
 }
 
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
