@@ -2,7 +2,7 @@
 
 
 # Horiseon Website 
----
+
 ## Description
 
 This repository contains the code base used in generating the Horiseon Social Solution Services, Inc. website landing page. Here, a potential client can obtain information regarding Horiseon's services and how they can benefit their overall online presence and business in general. 
